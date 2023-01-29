@@ -1,0 +1,48 @@
+::-webkit-scrollbar {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    background-color: transparent;
+    width: 0px;
+}
+
+.filter-wrapper {
+    display: flex;
+    overflow: scroll;
+    max-width: 1225px;
+    margin: auto;
+}
+
+.filter-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    padding: 30px;
+    background: var(--white);
+    border-radius: 8px;
+    width: 128px;
+    height: 158px;
+    cursor: pointer;
+}
+
+.filter-item.active {
+    border: 1px solid var(--red);
+}
+.filter-item.active  h3 {
+    color: var(--red);
+}
+
+.filter-item img {
+    width: 54px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.filter-item h3 {
+    font-size: var(--small);
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: var(--gray);
+}

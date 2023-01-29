@@ -1,0 +1,10 @@
+nav {
+    background-color: var(--yellow);
+    padding: 15px;
+    text-align: center;
+}
+
+nav .navbar-image img {
+    width: 144px;
+    height: 144px;
+}
